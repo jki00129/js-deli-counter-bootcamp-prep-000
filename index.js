@@ -7,5 +7,11 @@ function takeANumber(katzDeliLine, name){
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
 }
 
-function 
+function nowServing(katzDeliLine){
+  let myString =  `The line is currently: 1. ${katzDeliLine.length} `
+  
+  for(let i = 1; i<katzDeliLine.length; i++){
+    return `${i+1}. ${katzDeliLine.length[i]}`
+  }
+}
 
