@@ -8,6 +8,9 @@ function takeANumber(katzDeliLine, name){
 }
 
 function nowServing(katzDeliLine){
+  if (katzDeliLine.length === 0){
+    return 
+  }
   let myString =  `The line is currently: 1. ${katzDeliLine.length} `
   
   for(let i = 1; i<katzDeliLine.length; i++){
