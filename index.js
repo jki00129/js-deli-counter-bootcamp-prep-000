@@ -20,5 +20,9 @@ function nowServing(katzDeliLine){
   return myString;
 }
 
-function 
+function currentLine(katzDeliLine){
+  if(katzDeliLine.length === 0){
+    return 
+  }
+}
 
